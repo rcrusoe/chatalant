@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Chatalant</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
+	<title>Chatalant</title>
+	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	<%= csrf_meta_tags %>
+
+  	<!-- Mobile Viewport
+  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	<!-- Favicon
+  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  	<%= favicon_link_tag 'favicon.ico' %>
 </head>
 <body>
 

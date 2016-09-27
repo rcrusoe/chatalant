@@ -1,0 +1,115 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+/*
+*** 
+***** Basic Styling
+***
+*/
+
+body{
+	font-family: "Roboto";
+	font-size: 10px;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 3.6em;
+	line-height: 1.25em;
+	margin-bottom: 0px;
+	letter-spacing: 0.3px;
+}
+
+p{
+	font-weight: 300;
+	font-size: 1.6em;
+	line-height: 1.4em;
+	letter-spacing: 0.3px;
+}
+
+.inverted{
+	color: white;
+}
+
+.line-break{
+	width: 150px;
+	height: 3px;
+	background-color: #FF5607;
+	margin: 15px 0 20px 0;
+}
+
+.button-primary{
+	background-color: #FF5607 !important;
+	border: none;
+	font-family: "Roboto" !important;
+	font-size: 1.8em;
+	font-weight: 300;
+	text-transform: none;
+	letter-spacing: 0.6px;
+	width: 300px;
+	height: 50px;
+	margin: 20px 0 15px 0;
+}
+
+.subtitle{
+	font-style: italic;
+	font-size: 1.2em;
+	line-height: 1.25em;
+}
+
+/*
+*** 
+***** Hero
+***
+*/
+
+#section-hero{
+	background-color: #3b3b3d;
+	padding-top: 30px;
+	padding-bottom: 140px;
+	.logo{
+		height: 30px;
+		display: block;
+		margin: auto;
+	}
+	.description{
+		margin-top: 40px;
+	}
+	.phone{
+		height: 400px;
+		display: block;
+		margin: auto;
+	}
+}
+
+/*
+*** 
+***** Media Queries
+***
+*/
+
+/* Mobile styling */
+.intro{
+	margin-top: 30px;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+	.intro{
+		margin-top: 110px;
+	}
+}
