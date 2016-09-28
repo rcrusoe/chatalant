@@ -37,7 +37,7 @@ h1{
 p{
 	font-weight: 300;
 	font-size: 1.6em;
-	line-height: 1.4em;
+	line-height: 1.5em;
 	letter-spacing: 0.3px;
 }
 
@@ -96,7 +96,7 @@ p{
 		margin: auto;
 	}
 	.description{
-		margin-top: 40px;
+		margin-top: 20px;
 	}
 	.phone{
 		width: 100%;
@@ -112,6 +112,72 @@ p{
 		color: #FF5607;
 	}
 }
+
+/*
+*** 
+***** How It Works
+***
+*/
+
+.section{
+	padding-top: 110px;
+	padding-bottom: 140px;
+}
+
+.section-header{
+	text-align: center;
+	.line-break{
+		margin: 15px auto 20px;
+
+	}
+	p{
+		max-width: 500px;
+		margin: auto;
+	}
+}
+
+.how-it-works{
+	img{
+		width: 200px;
+		display: block;
+		margin: auto;
+	}
+	.title{
+		font-weight: bold !important ;
+		color: #3b3b3d !important;
+		margin-bottom: 0.5em !important;
+	}
+	p{
+		color: #848484;
+		text-align: center;
+	}
+}
+
+/*
+*** 
+***** Experts
+***
+*/
+
+.experts{
+	background-color: #f6f6f6;
+	img{
+		width: 100%;
+	}
+	.expert-experience{
+		margin-top: 30px;
+	}
+}
+
+.cta{
+	margin-top: 60px;
+	p, h1{
+		text-align: center;
+		max-width: 500px;
+		margin: 20px auto;
+	}
+}
+
 
 /*
 *** 
@@ -137,5 +203,14 @@ p{
 
 	.desktop-only{
 		display: block;
+	}
+	.how-it-works{
+		margin-top: 30px;
+		p{
+			text-align: left !important;
+		}
+	}
+	.expert-experience{
+		margin-top: 30px;
 	}
 }
